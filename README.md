@@ -114,18 +114,6 @@ sudo rm -f /tmp/.ns_shell /tmp/.ns_busy /tmp/nsenter_proof.txt /tmp/escape.ko /t
 - Abilitare profili AppArmor/SELinux e profili seccomp restrittivi.
 - Considerare `userns-remap` per rimappare root container su utente non-privilegiato dell'host.
 
-## Note su commit e push
-- Per creare un nuovo repo remoto e pushare:
-
-```bash
-git init
-git add .
-git commit -m "Initial commit"
-git branch -M main
-# aggiungi remote (HTTPS o SSH) e push
-git remote add origin https://github.com/tuo-username/Docker_escape_example.git
-git push -u origin main
-```
 
 Se usi GitHub e `gh` è installato, puoi creare il repo remoto con `gh repo create` come descritto nella documentazione del progetto.
 
