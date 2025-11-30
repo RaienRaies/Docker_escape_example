@@ -114,9 +114,3 @@ sudo rm -f /tmp/.ns_shell /tmp/.ns_busy /tmp/nsenter_proof.txt /tmp/escape.ko /t
 - Abilitare profili AppArmor/SELinux e profili seccomp restrittivi.
 - Considerare `userns-remap` per rimappare root container su utente non-privilegiato dell'host.
 
-
-Se usi GitHub e `gh` è installato, puoi creare il repo remoto con `gh repo create` come descritto nella documentazione del progetto.
-
----
-
-Se vuoi, aggiorno il README con ulteriori dettagli (diagrammi, comandi step-by-step più lunghi, o checklist di sicurezza). Vuoi che lo faccia ora?
